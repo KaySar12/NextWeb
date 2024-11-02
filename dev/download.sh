@@ -5,14 +5,13 @@ set -x
 temp_file=$(mktemp)
 
 # Extract URLs from the link.txt file
-grep -o 'https://apps-assets.fit2cloud.com/dev/1panel/.*' data.txt > "$temp_file"
+grep -o 'https://apps-assets.fit2cloud.com/dev/1panel/.*' logo.txt > "$temp_file"
 
 # Create a directory to store the downloaded files
-mkdir -p nextweb
+mkdir -p nextweb-private
 
 # Change to the downloads directory
-cd nextweb
-
+cd nextweb-private
 # Read each URL from the temporary file
 while IFS= read -r url; do
     # Extract the path after the base URL
@@ -22,7 +21,6 @@ while IFS= read -r url; do
     if [ ! -d "$(dirname "$path")" ]; then
         mkdir -p "$(dirname "$path")"
     fi
-    
     # Download the file
     filename=$(basename "$url")
     wget -q "$url" -O "$filename"
