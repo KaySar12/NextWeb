@@ -163,7 +163,7 @@ https://apps-assets.fit2cloud.com/dev/1panel/openresty/1.21.4.3-3-3-focal/openre
 https://apps-assets.fit2cloud.com/dev/1panel/openresty/1.21.4.3-3-2-focal/openresty-1.21.4.3-3-2-focal.tar.gz
 https://apps-assets.fit2cloud.com/dev/1panel/openresty/1.21.4.3-3-1-focal/openresty-1.21.4.3-3-1-focal.tar.gz
 https://apps-assets.fit2cloud.com/dev/1panel/openresty/1.21.4.3-2-2-focal/openresty-1.21.4.3-2-2-focal.tar.gz
-https://apps-assets.fit2cloud.com/dev/1panel/openresty/1.21.4.3-2-1-focal/openresty-1.21.4.3-2-1-focal.tar.
+https://apps-assets.fit2cloud.com/dev/1panel/openresty/1.21.4.3-2-1-focal/openresty-1.21.4.3-2-1-focal.tar.gz
 https://apps-assets.fit2cloud.com/dev/1panel/openresty/1.21.4.3-0-focal/openresty-1.21.4.3-0-focal.tar.gz
 https://apps-assets.fit2cloud.com/dev/1panel/openresty/1.25.3.2-0-1-focal/openresty-1.25.3.2-0-1-focal.tar.gz
 https://apps-assets.fit2cloud.com/dev/1panel/mongodb/7.0.15/mongodb-7.0.15.tar.gz

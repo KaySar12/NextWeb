@@ -163,7 +163,7 @@ https://apps-assets.fit2cloud.com/dev/1panel/openresty/1.21.4.3-3-3-focal/data.y
 https://apps-assets.fit2cloud.com/dev/1panel/openresty/1.21.4.3-3-2-focal/data.yml
 https://apps-assets.fit2cloud.com/dev/1panel/openresty/1.21.4.3-3-1-focal/data.yml
 https://apps-assets.fit2cloud.com/dev/1panel/openresty/1.21.4.3-2-2-focal/data.yml
-https://apps-assets.fit2cloud.com/dev/1panel/openresty/1.21.4.3-2-1-focal/openresty-1.21.4.3-2-1-focal.tar.
+https://apps-assets.fit2cloud.com/dev/1panel/openresty/1.21.4.3-2-1-focal/data.yml
 https://apps-assets.fit2cloud.com/dev/1panel/openresty/1.21.4.3-0-focal/data.yml
 https://apps-assets.fit2cloud.com/dev/1panel/openresty/1.25.3.2-0-1-focal/data.yml
 https://apps-assets.fit2cloud.com/dev/1panel/mongodb/7.0.15/data.yml

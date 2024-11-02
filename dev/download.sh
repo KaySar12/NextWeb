@@ -8,10 +8,10 @@ temp_file=$(mktemp)
 grep -o 'https://apps-assets.fit2cloud.com/dev/1panel/.*' logo.txt > "$temp_file"
 
 # Create a directory to store the downloaded files
-mkdir -p nextweb-private
+mkdir -p nextweb2
 
 # Change to the downloads directory
-cd nextweb-private
+cd nextweb2
 # Read each URL from the temporary file
 while IFS= read -r url; do
     # Extract the path after the base URL
