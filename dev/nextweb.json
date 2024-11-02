@@ -94,7 +94,7 @@
                                     "lastModified": "2024-10-31T14:22:24.000+00:00"
                                 }
                             ],
-                            "downloadUrl": "https://cdn.nextzenos.com/CDN/NextWeb/raw/branch/main/dev/nextweb/phpmyadmin/phpmyadmin-5.2.1.tar.gz",
+                            "downloadUrl": "https://cdn.nextzenos.com/CDN/NextWeb/raw/branch/main/dev/nextweb/phpmyadmin/5.2.1/phpmyadmin-5.2.1.tar.gz",
                             "downloadCallbackUrl": "https://cdn.nextzenos.com/CDN/NextWeb/raw/branch/main/download-callback",
                             "additionalProperties": {
                                 "formFields": [
