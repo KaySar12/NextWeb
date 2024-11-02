@@ -4,7 +4,7 @@
 temp_file=$(mktemp)
 
 # Extract URLs from the link.txt file
-grep -o 'https://apps-assets.fit2cloud.com/dev/1panel/.*' link.txt > "$temp_file"
+grep -o 'https://apps-assets.fit2cloud.com/dev/1panel/.*' logo.txt > "$temp_file"
 
 # Create a directory to store the downloaded files
 mkdir -p nextweb
