@@ -6261,13 +6261,13 @@
             "id": "postgresql",
             "lastModified": 1730384544,
             "icon": "https://cdn.nextzenos.com/CDN/NextWeb/raw/branch/main/dev/nextweb/postgresql/logo.png",
-            "readMe": "# PostgreSQL\n\nPostgreSQL 是一个强大的开源关系型数据库管理系统（RDBMS），具有许多先进的功能和广泛的用途。它以可靠性、扩展性和高级功能而闻名，适用于各种不同的应用场景。\n\n## 主要功能：\n\n### 多用户支持\n\nPostgreSQL 支持多个用户，每个用户可以有自己的帐户和权限。这使得多个用户可以同时访问和管理数据库，而不会相互干扰。\n\n### ACID 遵从\n\nPostgreSQL 遵循 ACID（原子性、一致性、隔离性和持久性）属性，确保数据库操作的可靠性和一致性，即使在系统崩溃或故障的情况下也能保持数据的完整性。\n\n### 数据类型支持\n\nPostgreSQL 提供了丰富的内置数据类型，包括整数、浮点数、日期/时间、文本、二进制数据等。此外，它还支持用户自定义数据类型，使其非常灵活。\n\n### 扩展性\n\nPostgreSQL 允许用户轻松地添加新的函数、操作符、聚合函数和数据类型，以满足特定应用程序的需求。这种灵活性使得它适用于各种不同的数据处理任务。\n\n### 外键支持\n\nPostgreSQL 支持外键，可以定义表之间的关系，确保数据的引用完整性，防止不一致的数据关联。\n\n### 多版本并发控制\n\nPostgreSQL 使用多版本并发控制（MVCC）来处理并发访问，允许多个事务同时访问数据库，而不会导致数据冲突或锁定。\n\n### 高级查询优化\n\nPostgreSQL 提供了强大的查询优化器，可以优化复杂的查询，以提高性能并降低查询时间。\n\n### 备份和恢复\n\nPostgreSQL 支持在线备份和恢复操作，可以轻松创建数据库备份，并在需要时恢复数据，确保数据的可用性和安全性。\n\n### 外部数据源访问\n\nPostgreSQL 允许访问外部数据源，如其他数据库、文件和Web服务，以便将外部数据与数据库中的数据集成。\n\n### 安全性\n\nPostgreSQL 提供了丰富的安全功能，包括访问控制、SSL支持、数据加密和审计功能，以确保数据库的安全性。\n\n### JSON 和 JSONB 数据类型\n\nPostgreSQL 支持存储和查询 JSON 数据，包括 JSON 和二进制 JSON（JSONB）数据类型，使其成为处理半结构化数据的理想选择。\n\n### 复制和高可用性\n\nPostgreSQL 支持流复制和逻辑复制，以实现数据复制和高可用性配置，确保系统的可用性和容错性。\n\n### 社区支持和扩展\n\nPostgreSQL 拥有活跃的社区，提供了大量的扩展和插件，以满足不同行业和应用程序的需求。\n",
-            "description": "开源关系型数据库",
+            "readMe": "# PostgreSQL\n\nPostgreSQL is a powerful open-source relational database management system (RDBMS) known for its advanced features and broad applications. Renowned for its reliability, scalability, and advanced capabilities, PostgreSQL is suitable for various application scenarios.\n\n## Main Features:\n\n### Multi-User Support\n\nPostgreSQL supports multiple users, with each user having individual accounts and permissions. This allows multiple users to access and manage the database simultaneously without interfering with each other.\n\n### ACID Compliance\n\nPostgreSQL adheres to ACID (Atomicity, Consistency, Isolation, Durability) principles, ensuring reliable and consistent database operations, even in the event of system crashes or failures, maintaining data integrity.\n\n### Data Type Support\n\nPostgreSQL provides a rich set of built-in data types, including integers, floating-point numbers, date/time, text, and binary data. It also supports user-defined data types, making it highly flexible.\n\n### Extensibility\n\nPostgreSQL allows users to easily add new functions, operators, aggregate functions, and data types to meet specific application requirements. This flexibility makes it suitable for various data processing tasks.\n\n### Foreign Key Support\n\nPostgreSQL supports foreign keys, enabling relationships between tables and ensuring referential integrity of data, preventing inconsistent data associations.\n\n### Multi-Version Concurrency Control\n\nPostgreSQL uses Multi-Version Concurrency Control (MVCC) to handle concurrent access, allowing multiple transactions to access the database simultaneously without causing data conflicts or locking.\n\n### Advanced Query Optimization\n\nPostgreSQL offers a powerful query optimizer that can optimize complex queries, enhancing performance and reducing query time.\n\n### Backup and Recovery\n\nPostgreSQL supports online backup and recovery operations, making it easy to create database backups and restore data when needed, ensuring data availability and security.\n\n### External Data Source Access\n\nPostgreSQL allows access to external data sources, such as other databases, files, and web services, to integrate external data with the database.\n\n### Security\n\nPostgreSQL provides a wide range of security features, including access control, SSL support, data encryption, and auditing functions to ensure database security.\n\n### JSON and JSONB Data Types\n\nPostgreSQL supports storing and querying JSON data, including JSON and binary JSON (JSONB) data types, making it an ideal choice for handling semi-structured data.\n\n### Replication and High Availability\n\nPostgreSQL supports streaming replication and logical replication to achieve data replication and high-availability configurations, ensuring system availability and fault tolerance.\n\n### Community Support and Extensions\n\nPostgreSQL has an active community, providing numerous extensions and plugins to meet the needs of various industries and applications.\n",
+            "description": "Open Source Relational Database",
             "name": "PostgreSQL",
             "tags": [
                 "Database"
             ],
-            "title": "开源关系型数据库",
+            "title": "Open Source Relational Database",
             "additionalProperties": {
                 "key": "postgresql",
                 "name": "PostgreSQL",
@@ -6732,13 +6732,13 @@
             "id": "openlitespeed",
             "lastModified": 1730384535,
             "icon": "https://cdn.nextzenos.com/CDN/NextWeb/raw/branch/main/dev/nextweb/openlitespeed/logo.png",
-            "readMe": "# 使用说明\n\n安装完成后，在容器功能界面，连接容器终端，执行以下命令创建管理员账户密码\n\n```shell\n/usr/local/lsws/admin/misc/admpass.sh\n```\n\n# OpenLiteSpeed\n\n**OpenLiteSpeed** 是一个高性能、轻量级、开源 的HTTP 服务器。\n\n# 功能简介：\n\n- **高性能**：OpenLiteSpeed 能够处理大量并发连接和请求，提供快速的响应时间和高吞吐量。\n- **内置缓存**：提供内置的高效缓存系统，可以显著提高网站的加载速度和性能。\n- **事件驱动架构**：采用事件驱动架构，有效利用系统资源，提高服务器处理能力。\n- **虚拟主机支持**：支持虚拟主机配置，允许在一台服务器上托管多个网站，提供灵活的部署选项。\n- **安全性**：内置防止 DDoS 攻击和恶意软件保护，提供可靠的安全防护措施。\n- **易于使用的 Web 管理界面**：提供直观的 Web 管理界面，方便用户配置和管理服务器设置。\n- **可扩展性**：支持各种插件和扩展，可以根据需要扩展服务器功能和性能。\n",
-            "description": "高性能、轻量级、开源的 HTTP 服务器",
+            "readMe": "# Instructions\n\nAfter installation, connect to the container terminal from the container features interface and run the following command to create an admin account password:\n\n```shell\n/usr/local/lsws/admin/misc/admpass.sh\n```\n\n# OpenLiteSpeed\n\n**OpenLiteSpeed** is a high-performance, lightweight, open-source HTTP server.\n\n# Features Overview:\n\n- **High Performance**: OpenLiteSpeed can handle a large number of concurrent connections and requests, providing fast response times and high throughput.\n- **Built-in Caching**: Offers an efficient built-in caching system that can significantly improve website loading speed and performance.\n- **Event-Driven Architecture**: Uses an event-driven architecture to make effective use of system resources, enhancing server processing capabilities.\n- **Virtual Host Support**: Supports virtual host configurations, allowing multiple websites to be hosted on a single server, providing flexible deployment options.\n- **Security**: Built-in protection against DDoS attacks and malware, providing reliable security measures.\n- **User-Friendly Web Admin Interface**: Offers an intuitive web-based admin interface, making it easy for users to configure and manage server settings.\n- **Scalability**: Supports various plugins and extensions to expand server functionality and performance as needed.\n",
+            "description": "A high-performance, lightweight, open source HTTP server",
             "name": "OpenLiteSpeed",
             "tags": [
                 "Web Server"
             ],
-            "title": "高性能、轻量级、开源的 HTTP 服务器",
+            "title": "A high-performance, lightweight, open source HTTP server",
             "additionalProperties": {
                 "key": "openlitespeed",
                 "name": "OpenLiteSpeed",
@@ -7663,13 +7663,13 @@
             "id": "openresty",
             "lastModified": 1730384535,
             "icon": "https://cdn.nextzenos.com/CDN/NextWeb/raw/branch/main/dev/nextweb/openresty/logo.png",
-            "readMe": "# OpenResty\n\nOpenResty 是一个基于 Nginx 的高性能 Web 应用服务器，它将 Nginx 与 Lua 编程语言集成在一起，提供了强大的功能和灵活性。\n\n## 主要功能：\n\n### 高性能代理服务器\n\nOpenResty 基于 Nginx 构建，继承了 Nginx 强大的反向代理和负载均衡功能。它能够处理大量并发请求，快速转发流量到后端服务器，确保网站的高性能和可用性。\n\n### 动态内容生成\n\n通过集成 Lua 编程语言，OpenResty 允许开发人员在配置文件中编写动态内容生成逻辑。这意味着您可以使用 Lua 脚本来处理请求、生成响应，甚至连接到外部数据源，从而创建高度定制化的 Web 应用程序。\n\n### 高级 URL 路由\n\nOpenResty 支持灵活的 URL 路由和重写规则。您可以根据请求的 URL 对流量进行定向、分发和过滤，以满足不同的业务需求。这有助于构建 RESTful API 或处理复杂的 URL 映射。\n\n### 缓存和性能优化\n\nOpenResty 提供了强大的缓存功能，可以缓存静态资源或动态生成的内容，从而显著提高网站的响应速度。它还支持压缩、负载均衡、连接池等性能优化功能，确保最佳的用户体验。\n\n### 安全性和访问控制\n\n通过 Nginx 的安全模块和 Lua 编程，OpenResty 提供了多层次的安全性控制，包括防止恶意请求、DDoS 攻击和访问控制列表。它还支持 SSL/TLS 加密，保护数据传输的安全性。\n\n### 第三方模块和插件\n\nOpenResty 社区和生态系统丰富，有许多第三方模块和插件可供选择，包括缓存、反爬虫、访问日志、认证等。这些扩展功能可以根据需求轻松集成到 OpenResty 中。\n\n### 轻量级和可扩展\n\nOpenResty 采用模块化设计，使得它非常轻量级且易于扩展。您可以根据需要选择性地启用或禁用功能模块，以满足不同的应用场景。\n",
-            "description": "基于 NGINX 和 LuaJIT 的 Web 平台",
+            "readMe": "# OpenResty\n\nOpenResty is a high-performance web application server based on Nginx, integrating Nginx with the Lua programming language to provide powerful functionality and flexibility.\n\n## Main Features:\n\n### High-Performance Proxy Server\n\nOpenResty is built on Nginx, inheriting Nginx's powerful reverse proxy and load balancing capabilities. It can handle a large number of concurrent requests, quickly forwarding traffic to backend servers to ensure high performance and availability of websites.\n\n### Dynamic Content Generation\n\nBy integrating the Lua programming language, OpenResty allows developers to write dynamic content generation logic in configuration files. This means you can use Lua scripts to handle requests, generate responses, and even connect to external data sources, creating highly customized web applications.\n\n### Advanced URL Routing\n\nOpenResty supports flexible URL routing and rewriting rules. You can direct, distribute, and filter traffic based on the request URL to meet different business needs. This helps in building RESTful APIs or handling complex URL mappings.\n\n### Caching and Performance Optimization\n\nOpenResty provides powerful caching capabilities to cache static resources or dynamically generated content, significantly improving the response speed of websites. It also supports compression, load balancing, connection pooling, and other performance optimization features to ensure the best user experience.\n\n### Security and Access Control\n\nWith Nginx's security modules and Lua programming, OpenResty offers multi-layered security controls, including protection against malicious requests, DDoS attacks, and access control lists. It also supports SSL/TLS encryption to secure data transmission.\n\n### Third-Party Modules and Plugins\n\nThe OpenResty community and ecosystem are rich, with many third-party modules and plugins available, including caching, anti-scraping, access logging, and authentication. These extensions can be easily integrated into OpenResty as needed.\n\n### Lightweight and Scalable\n\nOpenResty uses a modular design, making it very lightweight and easy to scale. You can selectively enable or disable feature modules to meet different application scenarios.\n",
+            "description": "High performance web platform based on Nginx and LuaJIT",
             "name": "OpenResty",
             "tags": [
                 "Web Server"
             ],
-            "title": "基于 NGINX 和 LuaJIT 的 Web 平台",
+            "title": "High performance web platform based on Nginx and LuaJIT",
             "additionalProperties": {
                 "key": "openresty",
                 "name": "OpenResty",
@@ -10348,13 +10348,13 @@
             "id": "mongodb",
             "lastModified": 1730384532,
             "icon": "https://cdn.nextzenos.com/CDN/NextWeb/raw/branch/main/dev/nextweb/mongodb/logo.png",
-            "readMe": "# MongoDB \n\nMongoDB 是一款流行的NoSQL数据库管理系统，它提供了许多功能，使其成为处理大规模数据和灵活的数据模型的强大工具。\n\n## 主要功能：\n\n### 文档型数据库\n\nMongoDB 是一个文档型数据库，数据以 BSON（二进制JSON）文档的形式存储。这种数据模型非常灵活，可以容易地处理不同结构的数据，而不需要固定的表结构。\n\n### 高度可扩展性\n\nMongoDB支持水平扩展，可以轻松地添加更多的服务器来处理大量数据和高并发请求。它适用于大规模的应用程序和增长型项目。\n\n### 强大的查询语言\n\nMongoDB提供了丰富的查询语言，支持复杂的查询操作，包括过滤、聚合、排序和地理空间查询等。用户可以轻松地提取所需的数据。\n\n### 复制和故障转移\n\nMongoDB支持数据复制，可以创建主-从复制集群以提高数据的可用性和容错性。在主节点故障时，自动选择新的主节点。\n\n### 自动分片\n\nMongoDB支持数据分片，允许水平拆分数据，以便在多台服务器上存储和处理数据。这有助于提高性能和负载均衡。\n\n### 支持索引\n\nMongoDB支持多种索引类型，包括单字段索引、复合索引和地理空间索引。索引可以大幅提高查询性能。\n\n### 内置复杂事务\n\nMongoDB 4.0及更高版本支持多文档事务，允许多个操作在一个事务中执行，确保数据的一致性。\n\n### 高级安全性\n\nMongoDB提供了访问控制、身份验证和加密等高级安全性功能，确保数据的保密性和完整性。\n\n### 社区支持和生态系统\n\nMongoDB拥有庞大的社区和丰富的生态系统，有大量的工具、驱动程序和扩展可用于不同的开发和运维任务。\n",
-            "description": "开源文档数据库",
+            "readMe": "# MongoDB \n\nMongoDB is a popular NoSQL database management system that offers many features, making it a powerful tool for handling large-scale data and flexible data models.\n\n## Main Features:\n\n### Document-Oriented Database\n\nMongoDB is a document-oriented database, storing data in BSON (Binary JSON) documents. This data model is very flexible, allowing for handling of differently structured data without requiring a fixed table schema.\n\n### High Scalability\n\nMongoDB supports horizontal scaling, allowing additional servers to be easily added to handle large amounts of data and high concurrency. It is suitable for large-scale applications and growth-oriented projects.\n\n### Powerful Query Language\n\nMongoDB provides a rich query language supporting complex query operations, including filtering, aggregation, sorting, and geospatial queries, making it easy for users to extract needed data.\n\n### Replication and Failover\n\nMongoDB supports data replication, allowing for primary-secondary clusters to enhance data availability and fault tolerance. In case of a primary node failure, a new primary is automatically elected.\n\n### Automatic Sharding\n\nMongoDB supports data sharding, allowing horizontal data partitioning for storage and processing across multiple servers. This helps improve performance and load balancing.\n\n### Index Support\n\nMongoDB supports various index types, including single-field, compound, and geospatial indexes. Indexing can significantly enhance query performance.\n\n### Built-In Complex Transactions\n\nStarting with MongoDB 4.0, multi-document transactions are supported, allowing multiple operations to be executed in a single transaction, ensuring data consistency.\n\n### Advanced Security\n\nMongoDB offers advanced security features, including access control, authentication, and encryption, to ensure data confidentiality and integrity.\n\n### Community Support and Ecosystem\n\nMongoDB has a large community and a rich ecosystem, with a wide range of tools, drivers, and extensions available for different development and operational tasks.\n",
+            "description": "Fractional file storage database",
             "name": "MongoDB",
             "tags": [
                 "Database"
             ],
-            "title": "开源文档数据库",
+            "title": "Fractional file storage database",
             "additionalProperties": {
                 "key": "mongodb",
                 "name": "MongoDB",
@@ -11463,13 +11463,13 @@
             "id": "php8",
             "lastModified": 1730384544,
             "icon": "https://cdn.nextzenos.com/CDN/NextWeb/raw/branch/main/dev/nextweb/php8/logo.png",
-            "readMe": "# PHP\n\nPHP（Hypertext Preprocessor）是一种流行的服务器端脚本语言，它用于开发动态网页和Web应用程序。\n\n## 主要功能：\n\n- **动态网页生成**：PHP 可以嵌入到HTML中，用于生成动态内容。这意味着您可以根据用户的请求和其他条件来生成不同的网页内容。\n- **数据库连接**：PHP 支持多种数据库系统，包括MySQL、SQLite、PostgreSQL等，使您能够轻松地连接和操作数据库。\n- **表单处理**：PHP 可以处理网页表单数据，从而实现用户输入验证、数据存储和处理用户提交的信息。\n- **会话管理**：PHP 支持会话管理，允许您跟踪用户的状态和数据，从而创建登录系统和购物车等功能。\n- **文件操作**：PHP 允许您打开、读取、写入和删除文件，以及执行文件上传和下载等操作。\n- **错误处理**：PHP 提供丰富的错误处理机制，以便您能够捕获、记录和处理应用程序中的错误和异常。\n- **服务器端脚本**：PHP 脚本在服务器上执行，生成HTML输出，这意味着客户端无法查看脚本代码，从而提高了安全性。\n- **跨平台兼容**：PHP 可以在多种操作系统上运行，包括Windows、Linux和macOS，因此非常灵活。\n- **开源和社区支持**：PHP 是一个开源项目，拥有庞大的开发者社区，可以轻松找到各种扩展和库来扩展功能。\n- **模块化和面向对象编程**：PHP 支持面向对象编程（OOP），并且具有许多内置模块和扩展，可以简化开发过程。\n",
-            "description": "PHP8 运行环境",
+            "readMe": "# PHP\n\nPHP (Hypertext Preprocessor) is a popular server-side scripting language used for developing dynamic web pages and web applications.\n\n## Main Features:\n\n- **Dynamic Web Page Generation**: PHP can be embedded into HTML to generate dynamic content, allowing you to create different web content based on user requests and other conditions.\n- **Database Connectivity**: PHP supports multiple database systems, including MySQL, SQLite, and PostgreSQL, making it easy to connect to and manipulate databases.\n- **Form Handling**: PHP can process web form data, enabling validation, data storage, and handling of user-submitted information.\n- **Session Management**: PHP supports session management, allowing you to track user status and data to create features like login systems and shopping carts.\n- **File Operations**: PHP enables file operations such as opening, reading, writing, and deleting files, as well as file upload and download functionalities.\n- **Error Handling**: PHP provides robust error handling mechanisms to capture, log, and manage errors and exceptions in applications.\n- **Server-Side Scripting**: PHP scripts execute on the server and generate HTML output, meaning clients cannot view the script code, which enhances security.\n- **Cross-Platform Compatibility**: PHP can run on various operating systems, including Windows, Linux, and macOS, making it very flexible.\n- **Open Source and Community Support**: PHP is an open-source project with a large developer community, making it easy to find extensions and libraries to expand its capabilities.\n- **Modular and Object-Oriented Programming**: PHP supports object-oriented programming (OOP) and includes many built-in modules and extensions, simplifying the development process.\n",
+            "description": "PHP8 Runtime",
             "name": "PHP 8",
             "tags": [
                 "Runtime"
             ],
-            "title": "PHP8 运行环境",
+            "title": "PHP8 Runtime",
             "additionalProperties": {
                 "key": "php8",
                 "name": "PHP 8",
@@ -12855,13 +12855,13 @@
             "id": "php7",
             "lastModified": 1730384541,
             "icon": "https://cdn.nextzenos.com/CDN/NextWeb/raw/branch/main/dev/nextweb/php7/logo.png",
-            "readMe": "# PHP\n\nPHP（Hypertext Preprocessor）是一种流行的服务器端脚本语言，它用于开发动态网页和Web应用程序。\n\n## 主要功能：\n\n- **动态网页生成**：PHP 可以嵌入到HTML中，用于生成动态内容。这意味着您可以根据用户的请求和其他条件来生成不同的网页内容。\n- **数据库连接**：PHP 支持多种数据库系统，包括MySQL、SQLite、PostgreSQL等，使您能够轻松地连接和操作数据库。\n- **表单处理**：PHP 可以处理网页表单数据，从而实现用户输入验证、数据存储和处理用户提交的信息。\n- **会话管理**：PHP 支持会话管理，允许您跟踪用户的状态和数据，从而创建登录系统和购物车等功能。\n- **文件操作**：PHP 允许您打开、读取、写入和删除文件，以及执行文件上传和下载等操作。\n- **错误处理**：PHP 提供丰富的错误处理机制，以便您能够捕获、记录和处理应用程序中的错误和异常。\n- **服务器端脚本**：PHP 脚本在服务器上执行，生成HTML输出，这意味着客户端无法查看脚本代码，从而提高了安全性。\n- **跨平台兼容**：PHP 可以在多种操作系统上运行，包括Windows、Linux和macOS，因此非常灵活。\n- **开源和社区支持**：PHP 是一个开源项目，拥有庞大的开发者社区，可以轻松找到各种扩展和库来扩展功能。\n- **模块化和面向对象编程**：PHP 支持面向对象编程（OOP），并且具有许多内置模块和扩展，可以简化开发过程。\n",
-            "description": "PHP7 运行环境",
+            "readMe": "# PHP\n\nPHP (Hypertext Preprocessor) is a popular server-side scripting language used for developing dynamic web pages and web applications.\n\n## Main Features:\n\n- **Dynamic Web Page Generation**: PHP can be embedded into HTML to generate dynamic content, allowing you to create different web content based on user requests and other conditions.\n- **Database Connectivity**: PHP supports multiple database systems, including MySQL, SQLite, and PostgreSQL, making it easy to connect to and manipulate databases.\n- **Form Handling**: PHP can process web form data, enabling validation, data storage, and handling of user-submitted information.\n- **Session Management**: PHP supports session management, allowing you to track user status and data to create features like login systems and shopping carts.\n- **File Operations**: PHP enables file operations such as opening, reading, writing, and deleting files, as well as file upload and download functionalities.\n- **Error Handling**: PHP provides robust error handling mechanisms to capture, log, and manage errors and exceptions in applications.\n- **Server-Side Scripting**: PHP scripts execute on the server and generate HTML output, meaning clients cannot view the script code, which enhances security.\n- **Cross-Platform Compatibility**: PHP can run on various operating systems, including Windows, Linux, and macOS, making it very flexible.\n- **Open Source and Community Support**: PHP is an open-source project with a large developer community, making it easy to find extensions and libraries to expand its capabilities.\n- **Modular and Object-Oriented Programming**: PHP supports object-oriented programming (OOP) and includes many built-in modules and extensions, simplifying the development process.\n",
+            "description": "PHP7 Runtime",
             "name": "PHP 7",
             "tags": [
                 "Runtime"
             ],
-            "title": "PHP7 运行环境",
+            "title": "PHP7 Runtime",
             "additionalProperties": {
                 "key": "php7",
                 "name": "PHP 7",
@@ -14060,13 +14060,13 @@
             "id": "php5",
             "lastModified": 1730384536,
             "icon": "https://cdn.nextzenos.com/CDN/NextWeb/raw/branch/main/dev/nextweb/php5/logo.png",
-            "readMe": "# PHP\n\nPHP（Hypertext Preprocessor）是一种流行的服务器端脚本语言，它用于开发动态网页和Web应用程序。\n\n## 主要功能：\n\n- **动态网页生成**：PHP 可以嵌入到HTML中，用于生成动态内容。这意味着您可以根据用户的请求和其他条件来生成不同的网页内容。\n- **数据库连接**：PHP 支持多种数据库系统，包括MySQL、SQLite、PostgreSQL等，使您能够轻松地连接和操作数据库。\n- **表单处理**：PHP 可以处理网页表单数据，从而实现用户输入验证、数据存储和处理用户提交的信息。\n- **会话管理**：PHP 支持会话管理，允许您跟踪用户的状态和数据，从而创建登录系统和购物车等功能。\n- **文件操作**：PHP 允许您打开、读取、写入和删除文件，以及执行文件上传和下载等操作。\n- **错误处理**：PHP 提供丰富的错误处理机制，以便您能够捕获、记录和处理应用程序中的错误和异常。\n- **服务器端脚本**：PHP 脚本在服务器上执行，生成HTML输出，这意味着客户端无法查看脚本代码，从而提高了安全性。\n- **跨平台兼容**：PHP 可以在多种操作系统上运行，包括Windows、Linux和macOS，因此非常灵活。\n- **开源和社区支持**：PHP 是一个开源项目，拥有庞大的开发者社区，可以轻松找到各种扩展和库来扩展功能。\n- **模块化和面向对象编程**：PHP 支持面向对象编程（OOP），并且具有许多内置模块和扩展，可以简化开发过程。\n",
-            "description": "PHP5 运行环境",
+            "readMe": "# PHP\n\nPHP (Hypertext Preprocessor) is a popular server-side scripting language used for developing dynamic web pages and web applications.\n\n## Main Features:\n\n- **Dynamic Web Page Generation**: PHP can be embedded into HTML to generate dynamic content, allowing you to create different web content based on user requests and other conditions.\n- **Database Connectivity**: PHP supports multiple database systems, including MySQL, SQLite, and PostgreSQL, making it easy to connect to and manipulate databases.\n- **Form Handling**: PHP can process web form data, enabling validation, data storage, and handling of user-submitted information.\n- **Session Management**: PHP supports session management, allowing you to track user status and data to create features like login systems and shopping carts.\n- **File Operations**: PHP enables file operations such as opening, reading, writing, and deleting files, as well as file upload and download functionalities.\n- **Error Handling**: PHP provides robust error handling mechanisms to capture, log, and manage errors and exceptions in applications.\n- **Server-Side Scripting**: PHP scripts execute on the server and generate HTML output, meaning clients cannot view the script code, which enhances security.\n- **Cross-Platform Compatibility**: PHP can run on various operating systems, including Windows, Linux, and macOS, making it very flexible.\n- **Open Source and Community Support**: PHP is an open-source project with a large developer community, making it easy to find extensions and libraries to expand its capabilities.\n- **Modular and Object-Oriented Programming**: PHP supports object-oriented programming (OOP) and includes many built-in modules and extensions, simplifying the development process.\n",
+            "description": "PHP5 Runtim",
             "name": "PHP 5",
             "tags": [
                 "Runtime"
             ],
-            "title": "PHP5 运行环境",
+            "title": "PHP5 Runtim",
             "additionalProperties": {
                 "key": "php5",
                 "name": "PHP 5",
@@ -21816,7 +21816,7 @@
             "id": "nginx-proxy-manager",
             "lastModified": 1730384533,
             "icon": "https://cdn.nextzenos.com/CDN/NextWeb/raw/branch/main/dev/nextweb/nginx-proxy-manager/logo.png",
-            "readMe": "## Account password\n\n```\nEmail:    admin@example.com\nPassword: changeme\n```\n\n## Nginx Proxy Manager\n\n**Nginx Proxy Manager** is a powerful reverse proxy and web server management tool that allows you to easily manage proxy settings for multiple websites and applications.\n\n### Main Features:\n\n#### Web Interface Management\n\nNginx Proxy Manager provides an intuitive web interface through which you can easily manage your proxy settings and virtual hosts. Without the need to delve into the complexities of Nginx configuration files, you can accomplish all operations through a simple graphical interface.\n\n#### Reverse Proxy\n\nWith Nginx Proxy Manager, you can set up reverse proxy rules to route requests from the outside world to internal servers or applications. This helps hide the details of internal servers while providing secure external access.\n\n#### SSL Certificate Management\n\nThe tool has built-in SSL certificate management capabilities, allowing you to easily add SSL/TLS support for your websites and applications. This makes your websites more secure and provides HTTPS encryption.\n\n#### Automatic DNS Configuration\n\nNginx Proxy Manager can automatically configure DNS records for your virtual hosts without manual intervention. This simplifies domain management and improves efficiency.\n\n#### Let's Encrypt Integration\n\nIntegration with Let's Encrypt allows you to easily generate free SSL/TLS certificates for your domain names. This is an important way to protect website data.\n\n#### HTTP/HTTPS Redirection\n\nYou can easily configure HTTP to HTTPS redirection to ensure that all traffic is encrypted.\n\n#### WebSocket Support\n\nNginx Proxy Manager supports the WebSocket protocol, allowing you to proxy WebSocket applications such as chat applications or real-time data transfer applications.\n\n#### Access Control and Authentication\n\nYou can set access control rules to restrict access from specific IP addresses or networks. Additionally, you can enable basic authentication to protect your applications.\n",
+            "readMe": "## Account password\n\n```\nEmail: admin@example.com\nPassword: changeme\n```\n\n## Nginx Proxy Manager\n\n**Nginx Proxy Manager** is a powerful reverse proxy and web server management tool that allows you to easily manage proxy settings for multiple websites and applications.\n\n### Main Features:\n\n#### Web Interface Management\n\nNginx Proxy Manager provides an intuitive web interface through which you can easily manage your proxy settings and virtual hosts. Without the need to delve into the complexities of Nginx configuration files, you can accomplish all operations through a simple graphical interface.\n\n#### Reverse Proxy\n\nWith Nginx Proxy Manager, you can set up reverse proxy rules to route requests from the outside world to internal servers or applications. This helps hide the details of internal servers while providing secure external access.\n\n#### SSL Certificate Management\n\nThe tool has built-in SSL certificate management capabilities, allowing you to easily add SSL/TLS support for your websites and applications. This makes your websites more secure and provides HTTPS encryption.\n\n#### Automatic DNS Configuration\n\nNginx Proxy Manager can automatically configure DNS records for your virtual hosts without manual intervention. This simplifies domain management and improves efficiency.\n\n#### Let's Encrypt Integration\n\nIntegration with Let's Encrypt allows you to easily generate free SSL/TLS certificates for your domain names. This is an important way to protect website data.\n\n#### HTTP/HTTPS Redirection\n\nYou can easily configure HTTP to HTTPS redirection to ensure that all traffic is encrypted.\n\n#### WebSocket Support\n\nNginx Proxy Manager supports the WebSocket protocol, allowing you to proxy WebSocket applications such as chat applications or real-time data transfer applications.\n\n#### Access Control and Authentication\n\nYou can set access control rules to restrict access from specific IP addresses or networks. Additionally, you can enable basic authentication to protect your applications.\n",
             "description": "Nginx management tool",
             "name": "Nginx Proxy Manager",
             "tags": [
@@ -25819,44 +25819,14 @@
                 "sort": 5
             },
             {
-                "key": "Storage",
-                "name": "Cloud storage",
-                "sort": 6
-            },
-            {
-                "key": "BI",
-                "name": "BI",
-                "sort": 8
-            },
-            {
-                "key": "Security",
-                "name": "Security",
-                "sort": 9
-            },
-            {
                 "key": "DevTool",
                 "name": "Development tool",
                 "sort": 10
             },
             {
-                "key": "DevOps",
-                "name": "DevOps",
-                "sort": 11
-            },
-            {
                 "key": "Middleware",
                 "name": "Middleware",
                 "sort": 12
-            },
-            {
-                "key": "Media",
-                "name": "Media",
-                "sort": 13
-            },
-            {
-                "key": "Email",
-                "name": "Mail service",
-                "sort": 14
             },
             {
                 "key": "Local",
