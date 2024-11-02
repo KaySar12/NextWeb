@@ -1,3 +1,5 @@
+https://apps-assets.fit2cloud.com/dev/1panel/logo.png
+https://apps-assets.fit2cloud.com/dev/1panel/mariadb/logo.png
 https://cdn.nextzenos.com/CDN/NextWeb/raw/branch/main/dev/nextweb/logo.png
 https://cdn.nextzenos.com/CDN/NextWeb/raw/branch/main/dev/nextweb/logo.png
 https://apps-assets.fit2cloud.com/dev/1panel/phpmyadmin/logo.png

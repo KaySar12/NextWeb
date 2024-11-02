@@ -1,4 +1,12 @@
-https://apps-assets.fit2cloud.com/dev/1panel/mariadb/11.5.2/mariadb-11.5.2.tar.gz
+https://apps-assets.fit2cloud.com/dev/1panel/phpmyadmin/5.2.1/phpmyadmin-5.2.1.tar.gz
+https://apps-assets.fit2cloud.com/dev/1panel/mariadb/10.11.5.1/mariadb-10.11.5.1.tar.gz
+https://apps-assets.fit2cloud.com/dev/1panel/mariadb/10.11.6/mariadb-10.11.6.tar.gz
+https://apps-assets.fit2cloud.com/dev/1panel/mariadb/10.11.7/mariadb-10.11.7.tar.gz
+https://apps-assets.fit2cloud.com/dev/1panel/mariadb/10.11.8/mariadb-10.11.8.tar.gz
+https://apps-assets.fit2cloud.com/dev/1panel/mariadb/10.11.9/mariadb-10.11.9.tar.gz
+https://apps-assets.fit2cloud.com/dev/1panel/mariadb/11.3.2/mariadb-11.3.2.tar.gz
+https://apps-assets.fit2cloud.com/dev/1panel/mariadb/11.4.2/mariadb-11.4.2.tar.gz
+https://apps-assets.fit2cloud.com/dev/1panel/mariadb/11.4.3/mariadb-11.4.3.tar.gz
 https://apps-assets.fit2cloud.com/dev/1panel/portainer-ce/2.22.0-alpine/portainer-ce-2.22.0-alpine.tar.gz
 portainer-ce-2.21.2-alpine.tar.gz
 https://apps-assets.fit2cloud.com/dev/1panel/portainer-ce/2.21.2-alpine/portainer-ce-2.21.2-alpine.tar.gz

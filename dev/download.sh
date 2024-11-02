@@ -1,10 +1,11 @@
 #!/bin/bash
 
+set -x
 # Create a temporary file to store the URLs
 temp_file=$(mktemp)
 
 # Extract URLs from the link.txt file
-grep -o 'https://apps-assets.fit2cloud.com/dev/1panel/.*' docker-compose.txt > "$temp_file"
+grep -o 'https://apps-assets.fit2cloud.com/dev/1panel/.*' data.txt > "$temp_file"
 
 # Create a directory to store the downloaded files
 mkdir -p nextweb

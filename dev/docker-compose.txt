@@ -1,4 +1,12 @@
-https://apps-assets.fit2cloud.com/dev/1panel/mariadb/11.5.2/docker-compose.yml
+https://apps-assets.fit2cloud.com/dev/1panel/phpmyadmin/5.2.1/docker-compose.yml
+https://apps-assets.fit2cloud.com/dev/1panel/mariadb/10.11.5.1/docker-compose.yml
+https://apps-assets.fit2cloud.com/dev/1panel/mariadb/10.11.6/docker-compose.yml
+https://apps-assets.fit2cloud.com/dev/1panel/mariadb/10.11.7/docker-compose.yml
+https://apps-assets.fit2cloud.com/dev/1panel/mariadb/10.11.8/docker-compose.yml
+https://apps-assets.fit2cloud.com/dev/1panel/mariadb/10.11.9/docker-compose.yml
+https://apps-assets.fit2cloud.com/dev/1panel/mariadb/11.3.2/docker-compose.yml
+https://apps-assets.fit2cloud.com/dev/1panel/mariadb/11.4.2/docker-compose.yml
+https://apps-assets.fit2cloud.com/dev/1panel/mariadb/11.4.3/docker-compose.yml
 https://apps-assets.fit2cloud.com/dev/1panel/portainer-ce/2.22.0-alpine/docker-compose.yml
 docker-compose.yml
 https://apps-assets.fit2cloud.com/dev/1panel/portainer-ce/2.21.2-alpine/docker-compose.yml
